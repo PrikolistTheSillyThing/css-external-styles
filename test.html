@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Business Card Example</title>
+  <style>
+    body{
+      background-color: #EEE;
+    }
+    h1,h2,p,ul{
+      padding: 0;
+      margin: 0;
+      list-style: "#";
+      
+    }
+    #business-card{
+      background-color: #111;
+      width: 500px;
+      height: 250px;
+      border: 5px solid white;
+      text-align: center;
+    }
+    #business-card .name{
+     border-right: 3px solid white;
+     width: 170px;
+     text-align: right;
+     padding: 10px;
+     font-family: arial;
+     display: inline-block;
+     margin-top: 70px;
+    }
+    #business-card .info{
+     width: 220px;
+     display: inline-block;
+     vertical-align: top;
+     font-family: arial;
+     font-size: 14px;
+     margin-top: 70px;
+     text-align: left;
+
+    }
+    #business-card .info p{
+     color: white;
+     display: inline-block;
+     
+    }
+    #business-card .name h1{
+      color: white;
+    }
+    #business-card .name h2{
+      color: darkgoldenrod;
+    }
+    #business-card .name small{
+      color: #666;
+      font-size: 14px;
+    }
+    #business-card .info ul {
+      margin-left: 20px;
+    }
+    #business-card .info li{
+      color: #666;
+      padding-left: 7px;
+    }
+    #business-card .info li:first-child{
+      list-style: "📱" ;
+      
+    }
+    #business-card .info li:nth-child(2){
+      list-style: "📩" ;
+      
+    }
+    #business-card .info li:nth-child(3){
+      list-style: "🌐" ;
+    }
+    
+
+
+  </style>
+</head>
+<body>
+  <div id="business-card">
+
+    <div class="name">
+      <h1>Firstname</h1>
+      <h2>Lastname</h2>
+      <small>web designer &#47; developer</small>
+    </div>
+    <div class="info">
+      <p>12345 Some Street, City<br>State, Province, Country</p>
+       <ul>
+         <li>+00 22 333444</li>
+         <li>email@somemail.example</li>
+         <li>www.exampledomain.example</li>
+       </ul>
+    </div>
+
+  </div>
+</body>
+</html>
