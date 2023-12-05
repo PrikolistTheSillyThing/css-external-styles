@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flat ui icons</title>
+    <style>
+        .icon{
+            width:128px;
+            height:128px;
+            border-radius: 128px;
+            background-color: cadetblue;
+        }
+        .circle{
+            width: 66px;
+            height: 84px;
+            background-color: #fff;
+            border: 4px solid white;
+            border-radius: 25%;
+            transform: translateX(27px) translateY(17px);
+            box-shadow: 3px 3px #3d6b6d;
+        }
+        .circle .dot{
+            width: 25px;
+            height: 10px;
+            border-radius: 10px;
+            background-color: #fff;
+            border: 2px solid cadetblue;
+        }
+        .circle .dot:nth-child(1){
+            transform: translateX(-15px) translateY(10px)
+        }
+        .circle .dot:nth-child(2){
+             transform: translateX(-15px) translateY(45px);;
+        }
+    </style>
+</head>
+<body>
+     <div class="icon">
+         <div class="circle">
+             <div class="dot"></div>
+             <div class="dot"></div>
+         </div>
+     </div>
+</body>
+</html>
